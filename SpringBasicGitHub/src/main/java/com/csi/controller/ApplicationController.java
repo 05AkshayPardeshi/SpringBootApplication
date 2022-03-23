@@ -18,4 +18,8 @@ public class ApplicationController {
         return "INDIA | MAHARASHTRA | PUNE | PCMC | INSEPRIA MALL | FOURTH FLOAR ..!";
     }
 
+    @GetMapping("/onkar")
+    public String sayOnkar(){
+        return "Onkar Balasaheb Pokharkar";
+    }
 }
